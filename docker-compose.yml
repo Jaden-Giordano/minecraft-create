@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  create:
+    image: greymouth/antimatter:main
+    ports:
+      - "25565:25565"
+    volumes:
+      - ./world:/usr/src/minecraft/world
+    tty: true
+    stdin_open: true
