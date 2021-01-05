@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   create:
-    image: greymouth/antimatter:main
+    image: greymouth/create:main
     ports:
       - "25565:25565"
     volumes:
